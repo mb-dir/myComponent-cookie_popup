@@ -13,4 +13,9 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin(),
     ],
+
+    devServer: {
+        port: 9090,
+        open: true,
+    }
 };
