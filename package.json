@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --config webpack.config-dev.js"
+    "dev": "webpack serve --config webpack.config-dev.js"
   },
   "author": "Michal Bysiewicz <michal.bysiewicz.kontakt@gmail.com> (https://github.com/mb-dir)",
   "license": "ISC",
