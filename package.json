@@ -9,6 +9,7 @@
   "author": "Michal Bysiewicz <michal.bysiewicz.kontakt@gmail.com> (https://github.com/mb-dir)",
   "license": "ISC",
   "devDependencies": {
+    "html-webpack-plugin": "^4.5.1",
     "webpack": "^5.12.2",
     "webpack-cli": "^4.3.1"
   },
