@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --config webpack.config-dev.js"
   },
   "author": "Michal Bysiewicz <michal.bysiewicz.kontakt@gmail.com> (https://github.com/mb-dir)",
   "license": "ISC",
