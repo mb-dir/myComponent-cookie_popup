@@ -1,0 +1,11 @@
+{
+  "name": "cookie_popup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michal Bysiewicz <michal.bysiewicz.kontakt@gmail.com> (https://github.com/mb-dir)",
+  "license": "ISC"
+}
