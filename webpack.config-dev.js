@@ -4,7 +4,7 @@ module.exports = {
     mode: 'development',
     entry: './src/index.js',
     output: {
-        filename: 'main.js',
+        filename: 'main[contenthash:5].js',
         path: path.resolve(__dirname, 'dist'),
     },
 };
