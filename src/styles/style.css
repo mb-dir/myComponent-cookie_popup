@@ -36,3 +36,7 @@ body{
 .cookieModal__btnAccept:hover{
     cursor: pointer;
 }
+.cookieModal__readMoreLink{
+    color: white;
+    margin: 5px 15px 5px;
+}
