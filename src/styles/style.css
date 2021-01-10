@@ -19,3 +19,9 @@ body{
   border: 5px solid #001736;
   border-radius: 10px;
 }
+.cookieModal__buttons{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
