@@ -13,11 +13,17 @@ body{
   position: absolute;
   top: 80%;
   right: 5%;
-  width: 330px;
+  width: 90%;
   min-height: 100px;
   background-color: #330ddb;
   border: 5px solid #001736;
   border-radius: 10px;
+}
+/* media queries for cookieModal*/
+@media(min-width: 486px){
+    .cookieModal{
+        width: 350px;
+    }
 }
 .cookieModal__buttons{
   width: 100%;
