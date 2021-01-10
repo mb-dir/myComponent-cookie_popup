@@ -10,6 +10,9 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 .cookieModal{
+  position: absolute;
+  top: 80%;
+  right: 5%;
   width: 330px;
   min-height: 100px;
   background-color: #330ddb;
