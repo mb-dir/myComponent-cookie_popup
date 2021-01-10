@@ -9,3 +9,10 @@ body{
     color: rgb(252, 252, 252);
     font-family: 'Courier New', Courier, monospace;
 }
+.cookieModal{
+  width: 330px;
+  min-height: 100px;
+  background-color: #330ddb;
+  border: 5px solid #001736;
+  border-radius: 10px;
+}
