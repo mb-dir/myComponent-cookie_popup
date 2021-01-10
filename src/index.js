@@ -1,2 +1,2 @@
 //Styles import
-import css from "./styles/test.css";
+import css from "./styles/style.css";
