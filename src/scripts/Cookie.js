@@ -3,6 +3,7 @@ class Cookie{
         this.cookieModal = cookieModal;
         this.btnAccept = btnAccept;
 
+        this.checkCookie();
         this.acceptCookie();
     }
 
@@ -12,6 +13,12 @@ class Cookie{
 
             localStorage.setItem("cookieAccept", 1);
         });
+    }
+
+    checkCookie(){
+        if (localStorage.getItem("cookieAccept")){
+            this.cookieModal.style.display = "none";
+        }
     }
 }
 
