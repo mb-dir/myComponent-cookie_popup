@@ -9,7 +9,7 @@ class Cookie{
 
     acceptCookie(){
         this.btnAccept.addEventListener("click",()=>{
-            this.cookieModal.style.display = "none";
+            this.cookieModal.classList.add("cookieModal--hideAnim");
 
             localStorage.setItem("cookieAccept", 1);
         });
