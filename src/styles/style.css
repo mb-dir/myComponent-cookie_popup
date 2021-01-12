@@ -46,3 +46,15 @@ body{
     color: white;
     margin: 5px 15px 5px;
 }
+.cookieModal--hideAnim{
+    animation: modalHide 1s both;
+}
+
+@keyframes modalHide{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
